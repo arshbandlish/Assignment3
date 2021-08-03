@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    
+    cursor: pointer;
+   
+    height: 55px;
+    width: 165px;
+    border: 2px red solid;
+    background-color: rgb(7, 1, 20);
+    color: red;
+    border-radius: 2px;
+    
+    transition: all 0.25s;
+    font-size: large;
+}
+
+button:hover{
+    box-shadow: yellow;
+    border: 2px yellow solid;
+    color: white;
+    transform: translate(0px, -2px);
+    border-radius: 2px;
+}
